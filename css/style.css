@@ -1,9 +1,24 @@
-/* Custom CSS Styles */
-
-body {
-  background-color: #80cbc4;
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+.large material-icon {
+  font-size: 6rem;
 }
 
-.material-icons {
-  size: 90px;
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 400;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+
+.header {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.byline {
+  font-style: italic;
 }
