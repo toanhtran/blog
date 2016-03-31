@@ -4,13 +4,17 @@
 /* text cream = f2f2db */
 
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
-.material-icon {
-  font-size: 9rem;
+
+/*** NAV ***/
+
+.material-icons {
+  font-size: 11rem;
 }
 
 nav {
   background-color: #73c1cc;
   color: #f2f2db;
+  height: 5em;
 }
 
 a {
@@ -23,26 +27,27 @@ a:hover {
 
 body {
   font-family: 'Libre Baskerville', serif;
-  font-size: 400;
+}
+
+p {
+  margin: 0 1.5em 0.5em;
 }
 
 h1 {
   font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-}
-
-.header {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.byline {
+  font-weight: 200;
   font-style: italic;
 }
 
 
-/** footer **/
+/*** ABOUT ***/
+
+#about {
+  margin: 0 auto;
+}
+
+
+/*** FOOTER ***/
 
 .page-footer {
   background-color: #73c1cc;
